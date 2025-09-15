@@ -1,14 +1,10 @@
 package Lesson.Enter;
 
-import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Name {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter n=");
-        int n = sc.nextInt();
+public class LucasUtils {
 
+    public static ArrayList<Integer> generateLucasNumbers(int n) {
         int a = 1, b = 3;
         ArrayList<Integer> lucasNumbers = new ArrayList<>();
         for (int i = 0; i < n; i++) {
@@ -17,8 +13,10 @@ public class Name {
             a = b;
             b = c;
         }
+        return lucasNumbers;
+    }
 
-
+    public static ArrayList<Integer> findSpecialLucas(ArrayList<Integer> lucasNumbers) {
         ArrayList<Integer> task = new ArrayList<>();
         for (int L : lucasNumbers) {
             int k = (int) Math.round(Math.cbrt(L + 1));
@@ -26,9 +24,6 @@ public class Name {
                 task.add(L);
             }
         }
-
-
-        System.out.println(lucasNumbers);
-        System.out.println(task);
+        return task;
     }
 }
