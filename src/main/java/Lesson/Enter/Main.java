@@ -3,7 +3,17 @@ package Lesson.Enter;
 import java.util.Scanner;
 import java.util.ArrayList;
 
+/**
+ * Головний клас програми.
+ * Зчитує кількість чисел, генерує послідовність Люкаса та виводить результат.
+ */
 public class Main {
+
+    /**
+     * Точка входу в програму.
+     *
+     * @param args аргументи командного рядка (не використовуються)
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n = ");

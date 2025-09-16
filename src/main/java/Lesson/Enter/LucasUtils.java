@@ -1,9 +1,17 @@
 package Lesson.Enter;
-
 import java.util.ArrayList;
-
+/**
+ * Утилітний клас для роботи з числами Люкаса.
+ * Містить методи для генерації послідовності та пошуку спеціальних чисел.
+ */
 public class LucasUtils {
 
+    /**
+     * Генерує перші {@code n} чисел Люкаса.
+     *
+     * @param n кількість чисел, які потрібно згенерувати
+     * @return список перших {@code n} чисел Люкаса
+     */
     public static ArrayList<Integer> generateLucasNumbers(int n) {
         int a = 1, b = 3;
         ArrayList<Integer> lucasNumbers = new ArrayList<>();
@@ -16,6 +24,12 @@ public class LucasUtils {
         return lucasNumbers;
     }
 
+    /**
+     * Знаходить усі числа Люкаса, для яких {@code L+1} є кубом цілого числа.
+     *
+     * @param lucasNumbers список чисел Люкаса
+     * @return список спеціальних чисел Люкаса
+     */
     public static ArrayList<Integer> findSpecialLucas(ArrayList<Integer> lucasNumbers) {
         ArrayList<Integer> task = new ArrayList<>();
         for (int L : lucasNumbers) {
