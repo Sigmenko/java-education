@@ -1,4 +1,4 @@
-package Lesson.Enter;
+package utils;
 import java.util.ArrayList;
 /**
  * Утилітний клас для роботи з числами Люкаса.

@@ -1,5 +1,5 @@
-package Lesson.Enter;
-
+package Main;
+import utils.LucasUtils;
 import java.util.Scanner;
 import java.util.ArrayList;
 
