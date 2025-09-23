@@ -1,4 +1,4 @@
-package Main;
+package main;
 import utils.LucasUtils;
 import java.util.Scanner;
 import java.util.ArrayList;
