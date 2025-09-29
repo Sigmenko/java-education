@@ -38,7 +38,6 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "lab1",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -65,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1759166598749</updated>
       <workItem from="1759166599970" duration="51000" />
-      <workItem from="1759166673683" duration="298000" />
+      <workItem from="1759166673683" duration="600000" />
     </task>
     <servers />
   </component>
