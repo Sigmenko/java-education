@@ -4,40 +4,97 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8395d62-d0c9-42e2-b296-e1e736a98233" name="Changes" comment="" />
+    <list default="true" id="a8395d62-d0c9-42e2-b296-e1e736a98233" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_13_2025_8_06_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_13_2025_8_06_PM_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_13_2025_8_06_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/lab1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/lab4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/lab5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/laba5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/Playroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/AddToyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/DisplayToysCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/ExitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/FindToysByRangeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/RemoveToyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/SortToysCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/lab6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/lab7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/lab8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/MainMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/Playroom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/AddToyCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/DisplayToysCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/ExitCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/FindToysByRangeCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/RemoveToyCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/SortToysCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/lab3.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lab1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Sigmenko"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sigmenko&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Sigmenko/java_education.git",
-    "accountId": "3d602834-d586-4b62-a0fc-3046d0389efc"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sigmenko/java_education.git&quot;,
+    &quot;accountId&quot;: &quot;3d602834-d586-4b62-a0fc-3046d0389efc&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="33Nnrrn0aUQCk4YdA0HF6vTE9ma" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -45,14 +102,36 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Morkvanius/IdeaProjects/java-education/lab5/laba5/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="GameManager" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.GameManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
       </set>
     </attachedChunks>
   </component>
