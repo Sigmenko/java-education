@@ -5,42 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8395d62-d0c9-42e2-b296-e1e736a98233" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_13_2025_8_06_PM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_13_2025_8_06_PM_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_13_2025_8_06_PM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/lab1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/lab4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/lab5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/laba5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/Playroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/AddToyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/DisplayToysCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/ExitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/FindToysByRangeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/RemoveToyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/commands/SortToysCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/lab6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/lab7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/lab8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/MainMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/Playroom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/AddToyCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/Command.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/DisplayToysCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/ExitCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/FindToysByRangeCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/RemoveToyCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/laba5/core/commands/SortToysCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/toys/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/toys/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/toys/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/toys/Doll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/toys/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/Playroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/AddToyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/DisplayToysCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/ExitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/FindToysByRangeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/LoadFromFileCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/RemoveToyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/SaveToFileCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/SortToysCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/Doll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/Toy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/laba5/src/core/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/laba5/src/core/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/lab6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/lab6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/laba5/core/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/laba5/core/MainMenu.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +78,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GameManager.executor": "Run",
     "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -97,13 +88,14 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Morkvanius/IdeaProjects/java-education/lab6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Morkvanius/IdeaProjects/java-education/lab5/laba5/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
@@ -114,19 +106,10 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="GameManager" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.GameManager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Morkvanius\IdeaProjects\java-education\lab6" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

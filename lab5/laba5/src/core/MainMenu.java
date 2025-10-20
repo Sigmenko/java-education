@@ -14,8 +14,8 @@ public class MainMenu {
         commands.put("1", new AddToyCommand(playroom));
         commands.put("2", new RemoveToyCommand(playroom));
         commands.put("3", new SortToysCommand(playroom));
-        commands.put("4", new FindToysByRangeCommand(playroom));
-        commands.put("5", new DisplayToysCommand(playroom));
+        commands.put("5", new FindToysByRangeCommand(playroom));
+        commands.put("4", new DisplayToysCommand(playroom));
         commands.put("0", new ExitCommand());
     }
 
@@ -23,13 +23,15 @@ public class MainMenu {
         Scanner scanner = new Scanner(System.in);
         String choice;
 
+        commands.put("0", new ExitCommand());
+
         while (true) {
             System.out.println("\n===== МЕНЮ ІГРОВОЇ КІМНАТИ =====");
             System.out.println("1. Додати іграшку");
             System.out.println("2. Видалити іграшку");
             System.out.println("3. Сортувати іграшки");
-            System.out.println("4. Шукати іграшки за діапазоном");
-            System.out.println("5. Переглянути список іграшок");
+            System.out.println("5. Шукати іграшки за діапазоном");
+            System.out.println("4. Переглянути список іграшок");
             System.out.println("0. Вихід");
             System.out.print("Ваш вибір: ");
 
