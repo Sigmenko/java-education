@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8395d62-d0c9-42e2-b296-e1e736a98233" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/PlayroomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/BallTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/BlockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/DollTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/lab6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/lab6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/src/core/Playroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/core/Playroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/src/core/commands/FindToysByRangeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/core/commands/FindToysByRangeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/src/core/commands/RemoveToyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/core/commands/RemoveToyCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/src/core/commands/SortToysCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/core/commands/SortToysCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/src/core/toys/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/core/toys/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab6/core/Playroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab6/core/Playroom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab6/core/commands/FindToysByRangeCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab6/core/commands/FindToysByRangeCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab6/core/commands/RemoveToyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab6/core/commands/RemoveToyCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab6/core/commands/SortToysCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab6/core/commands/SortToysCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab6/core/toys/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab6/core/toys/Block.class" afterDir="false" />
-    </list>
+    <list default="true" id="a8395d62-d0c9-42e2-b296-e1e736a98233" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
