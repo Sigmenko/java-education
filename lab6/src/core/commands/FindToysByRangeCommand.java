@@ -1,6 +1,7 @@
 package core.commands;
 
 import core.Playroom;
+import java.util.Scanner; // Додано імпорт
 
 public class FindToysByRangeCommand implements Command {
     private final Playroom playroom;
@@ -11,6 +12,15 @@ public class FindToysByRangeCommand implements Command {
 
     @Override
     public void execute() {
-        playroom.findToysByPriceRange();
+        // Тепер Scanner тут
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введіть мінімальну ціну: ");
+        float minPrice = scanner.nextFloat();
+        System.out.print("Введіть максимальну ціну: ");
+        float maxPrice = scanner.nextFloat();
+        scanner.nextLine(); // Очистка буфера
+
+        // Передаємо значення у метод Playroom
+        playroom.findToysByPriceRange(minPrice, maxPrice);
     }
 }

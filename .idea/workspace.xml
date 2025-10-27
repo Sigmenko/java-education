@@ -5,32 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8395d62-d0c9-42e2-b296-e1e736a98233" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/toys/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/toys/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/toys/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/toys/Doll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/laba5/src/core/toys/Toy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/Playroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/AddToyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/DisplayToysCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/ExitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/FindToysByRangeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/LoadFromFileCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/RemoveToyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/SaveToFileCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/commands/SortToysCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/Doll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/PlayroomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/BallTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/BlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/src/core/toys/DollTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/laba5/src/core/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/laba5/src/core/MainMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab6/lab6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/lab6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/laba5/core/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/laba5/core/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/core/Playroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/core/Playroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/core/commands/FindToysByRangeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/core/commands/FindToysByRangeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/core/commands/RemoveToyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/core/commands/RemoveToyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/core/commands/SortToysCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/core/commands/SortToysCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/core/toys/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/core/toys/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab6/core/Playroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab6/core/Playroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab6/core/commands/FindToysByRangeCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab6/core/commands/FindToysByRangeCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab6/core/commands/RemoveToyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab6/core/commands/RemoveToyCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab6/core/commands/SortToysCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab6/core/commands/SortToysCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab6/core/toys/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab6/core/toys/Block.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -80,11 +72,22 @@
   "keyToString": {
     "Application.GameManager.executor": "Run",
     "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.DollTest.executor": "Coverage",
+    "JUnit.PlayroomTest.executor": "Coverage",
+    "JUnit.core.commands in lab6.executor": "Coverage",
+    "JUnit.core.toys in lab6.executor": "Coverage",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -110,6 +113,81 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Morkvanius\IdeaProjects\java-education\lab6" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="core.toys" />
+      <recent name="core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PlayroomTest">
+    <configuration name="DollTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.toys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core.toys" />
+      <option name="MAIN_CLASS_NAME" value="core.toys.DollTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayroomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core" />
+      <option name="MAIN_CLASS_NAME" value="core.PlayroomTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="core.commands in lab6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core.commands" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="core.toys in lab6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.toys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core.toys" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlayroomTest" />
+        <item itemvalue="JUnit.core.toys in lab6" />
+        <item itemvalue="JUnit.core.commands in lab6" />
+        <item itemvalue="JUnit.DollTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -132,5 +210,19 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_education$core_toys_in_lab6.ic" NAME="core.toys in lab6 Coverage Results" MODIFIED="1761606924023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>core.toys.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java_education$DollTest.ic" NAME="DollTest Coverage Results" MODIFIED="1761601163217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>core.toys.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java_education$PlayroomTest.ic" NAME="PlayroomTest Coverage Results" MODIFIED="1761607243012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>core.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java_education$core_commands_in_lab6.ic" NAME="core.commands in lab6 Coverage Results" MODIFIED="1761601607562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>core.commands.*</FILTER>
+    </SUITE>
   </component>
 </project>
