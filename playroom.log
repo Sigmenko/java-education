@@ -1,0 +1,512 @@
+Oct 28, 2025 2:40:36 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 2:40:36 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 2:40:36 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 2:40:36 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 2:40:36 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 2:40:36 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 2:40:36 AM core.Playroom loadFromFile
+SEVERE: ❌ Помилка при завантаженні з файлу playroom.ser
+java.io.InvalidClassException: core.toys.Block; local class incompatible: stream classdesc serialVersionUID = -5540152640517163502, local class serialVersionUID = -7648617610671394882
+	at java.base/java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:496)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1927)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1785)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2101)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1620)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:487)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:445)
+	at java.base/java.util.ArrayList.readObject(ArrayList.java:982)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:976)
+	at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2302)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2133)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1620)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:487)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:445)
+	at core.Playroom.loadFromFile(Playroom.java:153)
+	at core.MainMenu.display(MainMenu.java:34)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 2:40:36 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 2:40:36 AM core.Main main
+INFO: >>> Завершення роботи програми Playroom <<<
+Oct 28, 2025 2:40:36 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 2:41:41 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 2:41:41 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 2:41:41 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 2:41:41 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 2:41:41 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 2:41:41 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 2:41:41 AM core.Playroom loadFromFile
+INFO: Файл для завантаження не знайдено: playroom.ser. Починаємо з порожньою кімнатою.
+Oct 28, 2025 2:43:15 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 2:43:15 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 2:43:15 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 2:43:15 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 2:43:15 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 2:43:15 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 2:43:15 AM core.Playroom loadFromFile
+INFO: Файл для завантаження не знайдено: playroom.ser. Починаємо з порожньою кімнатою.
+Oct 28, 2025 2:43:31 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 2:43:54 AM core.Playroom addToy
+INFO: ✅ Іграшку 'car' додано. Залишок бюджету: 900.00
+Oct 28, 2025 2:44:05 AM core.Playroom saveToFile
+INFO: ✅ Стан ігрової кімнати збережено у файл: playroom.ser
+Oct 28, 2025 3:13:46 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:13:46 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 3:13:46 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:13:46 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 3:13:46 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 3:13:46 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 3:13:46 AM core.Playroom loadFromFile
+INFO: ✅ Стан ігрової кімнати завантажено з файлу: playroom.ser
+Oct 28, 2025 3:13:51 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 3:14:07 AM core.commands.AddToyCommand execute
+SEVERE: Помилка вводу користувача (очікувалося число)
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextFloat(Scanner.java:2535)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:34)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:14:07 AM core.MainMenu display
+SEVERE: Неочікувана помилка при виконанні команди 1
+java.lang.NullPointerException: Parameter specified as non-null is null: method io.github.cdimascio.dotenv.Dotenv.get, parameter defValue
+	at io.github.cdimascio.dotenv.Dotenv.get(Dotenv.kt)
+	at util.AppLogger$EmailHandler.sendEmail(AppLogger.java:77)
+	at util.AppLogger$EmailHandler.publish(AppLogger.java:62)
+	at java.logging/java.util.logging.Logger.log(Logger.java:962)
+	at java.logging/java.util.logging.Logger.doLog(Logger.java:989)
+	at java.logging/java.util.logging.Logger.log(Logger.java:1100)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:72)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:14:07 AM core.Main main
+SEVERE: Критична помилка під час виконання програми
+java.lang.NullPointerException: Parameter specified as non-null is null: method io.github.cdimascio.dotenv.Dotenv.get, parameter defValue
+	at io.github.cdimascio.dotenv.Dotenv.get(Dotenv.kt)
+	at util.AppLogger$EmailHandler.sendEmail(AppLogger.java:77)
+	at util.AppLogger$EmailHandler.publish(AppLogger.java:62)
+	at java.logging/java.util.logging.Logger.log(Logger.java:962)
+	at java.logging/java.util.logging.Logger.doLog(Logger.java:989)
+	at java.logging/java.util.logging.Logger.log(Logger.java:1100)
+	at core.MainMenu.display(MainMenu.java:62)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:14:07 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:14:07 AM core.Main main
+INFO: >>> Завершення роботи програми Playroom <<<
+Oct 28, 2025 3:14:07 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:18:21 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:18:21 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 3:18:21 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:18:21 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 3:18:21 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 3:18:21 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 3:18:21 AM core.Playroom loadFromFile
+INFO: ✅ Стан ігрової кімнати завантажено з файлу: playroom.ser
+Oct 28, 2025 3:18:26 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 3:18:36 AM core.commands.AddToyCommand execute
+SEVERE: Помилка вводу користувача (очікувалося число)
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextFloat(Scanner.java:2535)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:34)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:18:36 AM core.MainMenu display
+SEVERE: Неочікувана помилка при виконанні команди 1
+java.lang.NullPointerException: Parameter specified as non-null is null: method io.github.cdimascio.dotenv.Dotenv.get, parameter defValue
+	at io.github.cdimascio.dotenv.Dotenv.get(Dotenv.kt)
+	at util.AppLogger$EmailHandler.sendEmail(AppLogger.java:77)
+	at util.AppLogger$EmailHandler.publish(AppLogger.java:62)
+	at java.logging/java.util.logging.Logger.log(Logger.java:962)
+	at java.logging/java.util.logging.Logger.doLog(Logger.java:989)
+	at java.logging/java.util.logging.Logger.log(Logger.java:1100)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:72)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:18:36 AM core.Main main
+SEVERE: Критична помилка під час виконання програми
+java.lang.NullPointerException: Parameter specified as non-null is null: method io.github.cdimascio.dotenv.Dotenv.get, parameter defValue
+	at io.github.cdimascio.dotenv.Dotenv.get(Dotenv.kt)
+	at util.AppLogger$EmailHandler.sendEmail(AppLogger.java:77)
+	at util.AppLogger$EmailHandler.publish(AppLogger.java:62)
+	at java.logging/java.util.logging.Logger.log(Logger.java:962)
+	at java.logging/java.util.logging.Logger.doLog(Logger.java:989)
+	at java.logging/java.util.logging.Logger.log(Logger.java:1100)
+	at core.MainMenu.display(MainMenu.java:62)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:18:36 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:18:36 AM core.Main main
+INFO: >>> Завершення роботи програми Playroom <<<
+Oct 28, 2025 3:18:36 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:24:35 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:24:35 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 3:24:35 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:24:35 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 3:24:35 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 3:24:35 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 3:24:35 AM core.Playroom loadFromFile
+INFO: ✅ Стан ігрової кімнати завантажено з файлу: playroom.ser
+Oct 28, 2025 3:24:37 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 3:24:45 AM core.commands.AddToyCommand execute
+SEVERE: Помилка вводу користувача (очікувалося число)
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextFloat(Scanner.java:2535)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:34)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:24:45 AM core.MainMenu display
+SEVERE: Неочікувана помилка при виконанні команди 1
+java.lang.NullPointerException: Parameter specified as non-null is null: method io.github.cdimascio.dotenv.Dotenv.get, parameter defValue
+	at io.github.cdimascio.dotenv.Dotenv.get(Dotenv.kt)
+	at util.AppLogger$EmailHandler.sendEmail(AppLogger.java:77)
+	at util.AppLogger$EmailHandler.publish(AppLogger.java:62)
+	at java.logging/java.util.logging.Logger.log(Logger.java:962)
+	at java.logging/java.util.logging.Logger.doLog(Logger.java:989)
+	at java.logging/java.util.logging.Logger.log(Logger.java:1100)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:72)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:24:45 AM core.Main main
+SEVERE: Критична помилка під час виконання програми
+java.lang.NullPointerException: Parameter specified as non-null is null: method io.github.cdimascio.dotenv.Dotenv.get, parameter defValue
+	at io.github.cdimascio.dotenv.Dotenv.get(Dotenv.kt)
+	at util.AppLogger$EmailHandler.sendEmail(AppLogger.java:77)
+	at util.AppLogger$EmailHandler.publish(AppLogger.java:62)
+	at java.logging/java.util.logging.Logger.log(Logger.java:962)
+	at java.logging/java.util.logging.Logger.doLog(Logger.java:989)
+	at java.logging/java.util.logging.Logger.log(Logger.java:1100)
+	at core.MainMenu.display(MainMenu.java:62)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:24:45 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:24:45 AM core.Main main
+INFO: >>> Завершення роботи програми Playroom <<<
+Oct 28, 2025 3:24:45 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:27:11 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:27:11 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 3:27:11 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:27:11 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 3:27:11 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 3:27:11 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 3:27:11 AM core.Playroom loadFromFile
+INFO: ✅ Стан ігрової кімнати завантажено з файлу: playroom.ser
+Oct 28, 2025 3:27:15 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 3:27:22 AM core.commands.AddToyCommand execute
+SEVERE: Помилка вводу користувача (очікувалося число)
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextFloat(Scanner.java:2535)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:34)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:29:54 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:29:54 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 3:29:54 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:29:54 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 3:29:54 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 3:29:54 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 3:29:54 AM core.Playroom loadFromFile
+INFO: ✅ Стан ігрової кімнати завантажено з файлу: playroom.ser
+Oct 28, 2025 3:29:56 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 3:30:05 AM core.commands.AddToyCommand execute
+SEVERE: Помилка вводу користувача (очікувалося число)
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextFloat(Scanner.java:2535)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:34)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:31:43 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:31:43 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 3:31:43 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:31:43 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 3:31:43 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 3:31:43 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 3:31:43 AM core.Playroom loadFromFile
+INFO: ✅ Стан ігрової кімнати завантажено з файлу: playroom.ser
+Oct 28, 2025 3:31:45 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 3:31:50 AM core.commands.AddToyCommand execute
+SEVERE: Помилка вводу користувача (очікувалося число)
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextFloat(Scanner.java:2535)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:34)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:42:34 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:42:34 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 3:42:34 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:42:34 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 3:42:34 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 3:42:34 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 3:42:34 AM core.Playroom loadFromFile
+INFO: ✅ Стан ігрової кімнати завантажено з файлу: playroom.ser
+Oct 28, 2025 3:42:41 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 3:42:45 AM core.commands.AddToyCommand execute
+SEVERE: Помилка вводу користувача (очікувалося число)
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextFloat(Scanner.java:2535)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:36)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:45:26 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:45:26 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 3:45:26 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:45:26 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 3:45:27 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 3:45:27 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 3:45:27 AM core.Playroom loadFromFile
+INFO: ✅ Стан ігрової кімнати завантажено з файлу: playroom.ser
+Oct 28, 2025 3:45:29 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 3:45:34 AM core.commands.AddToyCommand execute
+SEVERE: Помилка вводу користувача (очікувалося число)
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextFloat(Scanner.java:2535)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:36)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:54:41 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:54:41 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 3:54:41 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:54:41 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 3:54:41 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 3:54:41 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 3:54:41 AM core.Playroom loadFromFile
+INFO: ✅ Стан ігрової кімнати завантажено з файлу: playroom.ser
+Oct 28, 2025 3:54:44 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 3:54:49 AM core.commands.AddToyCommand execute
+SEVERE: Помилка вводу користувача (очікувалося число)
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextFloat(Scanner.java:2535)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:36)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 3:54:49 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:54:49 AM core.Main main
+INFO: >>> Завершення роботи програми Playroom <<<
+Oct 28, 2025 3:54:49 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:57:01 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:57:01 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 3:57:01 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 3:57:01 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 3:57:01 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 3:57:01 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 3:57:01 AM core.Playroom loadFromFile
+INFO: ✅ Стан ігрової кімнати завантажено з файлу: playroom.ser
+Oct 28, 2025 3:57:03 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 3:57:08 AM core.commands.AddToyCommand execute
+SEVERE: Помилка вводу користувача (очікувалося число)
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextFloat(Scanner.java:2535)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:36)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 10:15:44 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 10:15:44 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 10:15:44 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 10:15:44 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 10:15:44 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 10:15:44 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 10:15:44 AM core.Playroom loadFromFile
+INFO: ✅ Стан ігрової кімнати завантажено з файлу: playroom.ser
+Oct 28, 2025 10:15:54 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 10:16:04 AM core.Playroom addToy
+INFO: ✅ Іграшку '1' додано. Залишок бюджету: 899.00
+Oct 28, 2025 10:16:13 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 10:16:24 AM core.commands.AddToyCommand execute
+SEVERE: Помилка вводу користувача (очікувалося число)
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextFloat(Scanner.java:2535)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:36)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 10:19:27 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 10:19:27 AM core.Main main
+INFO: >>> Запуск програми Playroom <<<
+Oct 28, 2025 10:19:27 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 10:19:27 AM core.Playroom <init>
+INFO: Створено Playroom з бюджетом: 1000.00
+Oct 28, 2025 10:19:27 AM core.MainMenu <init>
+INFO: Меню ініціалізовано з командами.
+Oct 28, 2025 10:19:27 AM core.MainMenu display
+INFO: Ласкаво просимо до Ігрової кімнати!
+Oct 28, 2025 10:19:27 AM core.Playroom loadFromFile
+INFO: ✅ Стан ігрової кімнати завантажено з файлу: playroom.ser
+Oct 28, 2025 10:19:36 AM core.commands.AddToyCommand execute
+INFO: 
+--- Початок додавання нової іграшки ---
+Oct 28, 2025 10:19:40 AM core.commands.AddToyCommand execute
+SEVERE: Помилка вводу користувача (очікувалося число)
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextFloat(Scanner.java:2535)
+	at core.commands.AddToyCommand.execute(AddToyCommand.java:36)
+	at core.MainMenu.display(MainMenu.java:56)
+	at core.Main.main(Main.java:21)
+
+Oct 28, 2025 10:19:59 AM core.MainMenu display
+INFO: Користувач обрав вихід.
+Oct 28, 2025 10:19:59 AM core.Main main
+INFO: ========================================
+Oct 28, 2025 10:19:59 AM core.Main main
+INFO: >>> Завершення роботи програми Playroom <<<
+Oct 28, 2025 10:19:59 AM core.Main main
+INFO: ========================================

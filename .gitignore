@@ -1,0 +1,11 @@
+# Compiled output
+/out/
+
+# IDE settings folder
+/.idea/
+
+# Serialized save file
+*.ser
+
+# Environment variables file
+.env
