@@ -19,7 +19,7 @@ public class AppLogger {
     static {
         try {
 
-            SimpleFormatter formatter = new SimpleFormatter();
+            CustomLogFormatter formatter = new CustomLogFormatter();
 
 
             FileHandler fileHandler = new FileHandler(LOG_FILE, true);
